@@ -12,7 +12,7 @@ entities:
     notebook_file: Dim_Notebooks/notebook1.ipynb 
     artifacts:
     - Dim_Notebooks/notebook1.ipynb
-    - Dim_Notebooks/test.csv
+    - Dim_Notebooks/test_file.csv
   Data_Processing_NB:
     type: notebook
     query_warehouse: GMAHADEVAN_WH
