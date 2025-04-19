@@ -1,0 +1,22 @@
+definition_version: 2
+entities:
+  Dim_table_A:
+    type: notebook
+    query_warehouse: GMAHADEVAN_WH
+    notebook_file: Dim_Notebooks/notebook.ipynb 
+    artifacts:
+    - Dim_Notebooks/notebook.ipynb
+  Dim_table_B:
+    type: notebook
+    query_warehouse: GMAHADEVAN_WH
+    notebook_file: Dim_Notebooks/notebook1.ipynb 
+    artifacts:
+    - Dim_Notebooks/notebook1.ipynb
+    - Dim_Notebooks/test_file.csv
+  Data_Processing_NB:
+    type: notebook
+    query_warehouse: GMAHADEVAN_WH
+    notebook_file: Snowpark_nb/data_processing.ipynb
+    artifacts:
+    - Snowpark_nb/data_processing.ipynb
+    - Snowpark_nb/requirements.txt
