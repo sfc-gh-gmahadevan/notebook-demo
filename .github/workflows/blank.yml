@@ -65,6 +65,7 @@ jobs:
           snow notebook deploy Dim_table_A --replace
           snow notebook deploy Dim_table_B --replace
           snow notebook deploy Data_Processing_NB --replace
+          snow notebook deploy Analyst_NB --replace
           
         
 
@@ -115,6 +116,7 @@ jobs:
           snow notebook deploy Dim_table_A --replace
           snow notebook deploy Dim_table_B --replace
           snow notebook deploy Data_Processing_NB --replace
+          snow notebook deploy Analyst_NB --replace
 
   prod_stage:
     runs-on: ubuntu-latest
@@ -167,4 +169,5 @@ jobs:
           snow notebook deploy Dim_table_A --replace
           snow notebook deploy Dim_table_B --replace
           snow notebook deploy Data_Processing_NB --replace
+          snow notebook deploy Analyst_NB --replace
 
