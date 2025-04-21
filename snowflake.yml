@@ -20,3 +20,9 @@ entities:
     artifacts:
     - Snowpark_nb/data_processing.ipynb
     - Snowpark_nb/requirements.txt
+  NB_2:
+    type: notebook
+    query_warehouse: GMAHADEVAN_WH
+    notebook_file: NB_2/NB_2.ipynb
+    artifacts:
+    - NB_2/NB_2.ipynb
