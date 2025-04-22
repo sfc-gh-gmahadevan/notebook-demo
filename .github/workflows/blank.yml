@@ -67,6 +67,7 @@ jobs:
           snow notebook deploy Data_Processing_NB --replace
           snow notebook deploy NB_2 --replace
           snow notebook deploy NB_3 --replace
+          snow notebook deploy DEMO_NB_1 --replace
           
         
 
@@ -119,6 +120,7 @@ jobs:
           snow notebook deploy Data_Processing_NB --replace
           snow notebook deploy NB_2 --replace
           snow notebook deploy NB_3 --replace
+          snow notebook deploy DEMO_NB_1 --replace
 
   prod_stage:
     runs-on: ubuntu-latest
@@ -173,4 +175,5 @@ jobs:
           snow notebook deploy Data_Processing_NB --replace
           snow notebook deploy NB_2 --replace
           snow notebook deploy NB_3 --replace
+          snow notebook deploy DEMO_NB_1 --replace
 
