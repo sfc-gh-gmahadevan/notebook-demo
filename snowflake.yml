@@ -33,3 +33,9 @@ entities:
     notebook_file: NB_3/NB_3.ipynb
     artifacts:
     - NB_3/NB_3.ipynb
+  DEMO_NB_1:
+    type: notebook
+    query_warehouse: GMAHADEVAN_WH
+    notebook_file: DEMO_NB_1/DEMO_NB_1.ipynb
+    artifacts:
+    - DEMO_NB_1/DEMO_NB_1.ipynb
